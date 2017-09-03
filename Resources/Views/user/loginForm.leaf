@@ -1,0 +1,14 @@
+#extend("base")
+
+#export("title") { It works }
+
+#export("content") {
+<div class="container">
+<h1>Hello, login below!</h1>
+<form action="login" method="post">
+<input name="email" value="" placeholder="Enter Name"><br/>
+<input name="password" type="password" value="" placeholder="password"><br/>
+<input type="submit">Register</input>
+</form>
+</div>
+}
